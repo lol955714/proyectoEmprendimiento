@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.8" method="upgrade">
+  <name>Spanish-Colombia (es-CO) Language Pack</name>
+  <packagename>es-CO</packagename>
+  <version>3.9.0.1</version>
+  <creationDate>2018-11-12</creationDate>
+  <author>JUG Bogotá</author>
+  <authorEmail>info@jugbogota.org</authorEmail>
+  <authorUrl>jugbogota.org</authorUrl>
+  <description>Paquete de idioma español colombiano (es-CO)</description>
+  <files>
+    <folder type="language" client="site" id="es-CO">site_es-CO</folder>
+    <folder type="language" client="administrator" id="es-CO">admin_es-CO</folder>
+  </files>
+  <updateservers>
+    <server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_3.xml</server>
+  </updateservers>
+</extension>
