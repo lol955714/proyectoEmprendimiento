@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="plugin" group="editors" method="upgrade">
+	<name>plg_editors_pagebuilder3</name>
+	<version>1.4.6</version>
+	<creationDate>11/26/2018</creationDate>
+	<author>JoomlaShine.com</author>
+	<authorEmail>admin@joomlashine.com</authorEmail>
+	<authorUrl>www.joomlashine.com</authorUrl>
+	<copyright>Copyright (C) 2013 JoomlaShine.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>PLG_EDITORS_PAGEBUILDER3_XML_DESCRIPTION</description>
+	<scriptfile>subinstall.php</scriptfile>
+	<files>
+		<filename plugin="pagebuilder3">pagebuilder3.php</filename>
+		<filename>index.html</filename>
+		<filename>pagebuilder3.xml</filename>
+		<filename>subinstall.php</filename>
+		<folder>assets</folder>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_editors_pagebuilder3.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_editors_pagebuilder3.sys.ini</language>
+
+		<language tag="de-DE">language/de-DE/de-DE.plg_editors_pagebuilder3.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_editors_pagebuilder3.sys.ini</language>
+
+		<language tag="it-IT">language/it-IT/it-IT.plg_editors_pagebuilder3.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.plg_editors_pagebuilder3.sys.ini</language>
+	</languages>
+</extension>

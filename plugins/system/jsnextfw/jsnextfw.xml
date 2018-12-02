@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>plg_system_jsnextfw</name>
+	<version>1.0.4</version>
+	<creationDate>10/17/2018</creationDate>
+	<author>JoomlaShine.com</author>
+	<authorEmail>admin@joomlashine.com</authorEmail>
+	<authorUrl>www.joomlashine.com</authorUrl>
+	<copyright>Copyright (C) 2016 JoomlaShine.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>PLG_SYSTEM_JSNEXTFW_XML_DESCRIPTION</description>
+	<scriptfile>installer.php</scriptfile>
+	<updateservers>
+		<server type="extension" priority="1" name="JSN Ext. Framework 2 Updates">http://www.joomlashine.com/versioning/extensions/jsnextfw.xml</server>
+	</updateservers>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">database/mysql/install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">database/mysql/uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+	<update>
+		<schemas>
+			<schemapath type="mysql">database/mysql/updates</schemapath>
+		</schemas>
+	</update>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>database</folder>
+		<folder>includes</folder>
+		<folder>language</folder>
+		<folder>config</folder>
+		<filename>index.html</filename>
+		<filename>installer.php</filename>
+		<filename>jsnextfw.defines.php</filename>
+		<filename plugin="jsnextfw">jsnextfw.php</filename>
+		<filename>jsnextfw.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_jsnextfw.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_jsnextfw.sys.ini</language>
+	</languages>
+	<config />
+</extension>

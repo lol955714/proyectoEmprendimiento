@@ -1,0 +1,330 @@
+/**
+ * @version    $Id$
+ * @package    JSN Extension Framework 2
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/**
+ * Override.
+ */
+.jsn-bootstrap4 .btn {
+	font-size: 12px;
+	border-radius: 3px;
+	padding: 5px 12px;
+}
+.jsn-bootstrap4 .btn.btn-default {
+	background: #fff;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.jsn-bootstrap4 .btn-primary:focus, .jsn-bootstrap4 .btn-primary.focus,
+.jsn-bootstrap4 .btn-primary:not(:disabled):not(.disabled):active:focus, .jsn-bootstrap4 .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .jsn-bootstrap4 .btn-primary.dropdown-toggle:focus {
+	box-shadow: none;
+}
+.jsn-bootstrap4 .fade {
+	opacity: 0;
+}
+.jsn-bootstrap4 .fade.show {
+	opacity: 1;
+}
+body.jsn-adminbar-pinned .jsn-bootstrap4 .fade.show {
+	z-index: 9999;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+	.jsn-bootstrap4 .fade {
+		transition: opacity 0.15s linear;
+	}
+}
+.jsn-bootstrap4 .fade.in:not(.show) {
+	opacity: 1;
+}
+
+.jsn-bootstrap4 .tooltip {
+	opacity: initial;
+}
+.jsn-bootstrap4 .tooltip.fade {
+	transition: none;
+}
+
+.jsn-bootstrap4 div.modal,
+.jsn-bootstrap4 div.modal.fade.show {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: initial;
+	border: initial;
+	border-radius: initial;
+	box-shadow: initial;
+	outline: 0;
+	width: initial;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .5);
+	background-clip: initial;
+}
+.modal-header .modal-title {
+	text-transform: capitalize;
+	text-align: left;
+}
+#jsn-pro-introduction-modal{
+	z-index: 999999;
+}
+.jsn-bootstrap4 .modal-header {
+	padding: 12px 16px;
+	border: 1px solid #DDD;
+}
+.jsn-bootstrap4 .modal-header .close {
+	width: initial;
+	font-size: 20px;
+	line-height: 1;
+}
+.jsn-bootstrap4 .modal-footer {
+	border: 1px solid #DDDDDD;
+	border-radius: 0 0 3px 3px;
+	padding: 8px 16px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+	background-color: #F5F5F5;
+}
+
+#file_manager_modal .modal-body {
+	padding: 0;
+}
+.jsn-settings .tab-content {
+	padding: 20px;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #dee2e6;
+}
+.jsn-settings ul.nav-tabs li a {
+	font-size: 14px;
+}
+.jsn-bootstrap4 .nav-tabs .nav-item.active .nav-link {
+	color: #495057;
+	background-color: #fff;
+	border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/**
+ * Toolbar.
+ */
+#toolbar #toolbar-question-sign {
+	float: right;
+}
+
+/**
+ * Sortable.
+ */
+.jsn-bootstrap4 li > .fa {
+	display: inline;
+	padding: 3px 5px;
+	vertical-align: initial;
+}
+.jsn-bootstrap4 li > .fa-sort {
+	cursor: move;
+}
+
+/**
+ * Progress.
+ */
+.jsn-bootstrap4 li > .progress {
+	display: inline-block;
+	margin: 0 0 1px 5px;
+	width: 120px;
+	height: 8px;
+	text-indent: -999em;
+}
+
+/* Banners */
+.banner {
+	display: flex;
+	position:relative;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.banner .remove-banner {
+	position: absolute;
+	display: block;
+	top: 5px;
+	right: 5px;
+	border-radius: 100%;
+	padding: 0;
+	color: #FFF;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 20px;
+	background-color: rgba(34, 34, 34, 0.75);
+	text-decoration: none;
+	transition: 0.3s;
+}
+.banner .remove-banner:hover {
+	color: #FFF;
+	background-color: rgb(34, 34, 34);
+	text-decoration: none;
+}
+
+/* Language editor */
+#language-editor .card-body {
+	padding: 0;
+	height: 100%;
+}
+#files-panel {
+	float: left;
+	border-right: 1px solid rgba(0, 0, 0, 0.125);
+	padding: 1rem;
+	width: 25%;
+	height: 100%;
+	overflow: auto;
+}
+#edit-panel {
+	float: right;
+	width: 75%;
+	height: 100%;
+}
+#files-panel ul {
+	list-style: none;
+}
+#files-panel ul li {
+	padding: 5px 0;
+}
+#files-panel li > a {
+	white-space: nowrap;
+}
+#files-panel li > a.active {
+	color: initial;
+}
+
+#edit-panel .form-group:last-child {
+	margin-bottom: 0;
+}
+#edit-panel .filter-form {
+	padding: 1rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+#edit-panel .edit-form {
+	padding: 1rem;
+	height: calc(100% - 71px);
+	overflow: auto;
+}
+/* In case PB3 is installed, styling for modal is set here*/
+
+.modal-body {
+	font-size: 14px;
+	padding: 0;
+}
+.modal-body p {
+	margin-bottom: 0;
+}
+.modal-body .verification-content p {
+	margin-bottom: 10px;
+}
+.modal-body p:last-child {
+	margin-bottom: 10px;
+}
+.jsn-bootstrap4 .form-control {
+	height: auto;
+	font-size: 14px;
+}
+.modal-body ul li {
+	padding: 5px 0;
+}
+.modal-body ul li:first-child {
+	padding-top: 10px;
+}
+.modal-body ul li:last-child {
+	padding-bottom: 0;
+}
+.modal-body .introduction-content h4 {
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 600;
+}
+.modal-body label {
+	font-size: 14px;
+}
+#jsn-user-verification-form > .form-group .form-check:first-child .form-check-label {
+	 padding-left: 2px;
+}
+.jsn-bootstrap4  #jsn-user-verification-form .form-group .form-check {
+	padding-left: 0;
+	margin-bottom: 15px;
+}
+.jsn-bootstrap4 #jsn-user-verification-form .form-check-inline .form-check-input {
+	margin-top: -3px;
+	margin-right: 5px;
+}
+.jsn-bootstrap4  #jsn-user-verification-form .form-group .form-check:last-child .form-check-input {
+	margin-left: 1px;
+}
+#user-account-pane .jsn-bootstrap4,
+#privacy-settings-pane p {
+	font-size: 14px;
+}
+#privacy-settings-pane .form-check-label {
+	font-weight: bold;
+}
+#privacy-settings-pane .form-check-label {
+	padding-left: 0;
+}
+.jsn-language-item input[type="radio"], .jsn-language-item input[type="checkbox"] {
+	margin-top: 0;
+}
+.jsn-language-item .form-check > div {
+	margin-top: 3px;
+	margin-left: 5px;
+}
+#global-params-pane .has-tooltip i.fa,
+#configuration-pane .has-tooltip i.fa {
+	padding-left: 8px;
+}
+.jsn-product-update-confirm .alert {
+	margin-top: 15px;
+}
+.jsn-bootstrap4 .jsn-product-update-install .alert {
+	margin-top: 10px;
+}
+div.jsn-bootstrap4 .jsn-pages .jsn-logo .jsn-edition {
+	position: relative;
+	display: block;
+	right: 0;
+	background: #ff9c00;
+}
+/**
+ * Footer.
+ */
+.jsn-footer {
+	position: fixed;
+	top: auto;
+	right: 0;
+	bottom: 30px;
+	left: 0;
+	background: #ebebeb;
+	padding: 4px 10px;
+	border-top: 1px solid #dedede;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.08);
+}
+.jsn-footer {
+	font-size: 12px;
+	background: #10283E;
+	color: #FFF;
+}
+.jsn-footer .update-jsn-product {
+	height: 20px;
+	line-height: 20px;
+	border-radius: 4px;
+	background-color: #ff9c00;
+	padding: 0 5px;
+	border: none;
+	color: #FFF;
+	display: inline-block;
+	margin: 0 5px 0 8px;
+}

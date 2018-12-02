@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>plg_content_pb3loadmodule</name>
+	<version>1.4.6</version>	
+	<creationDate>11/26/2018</creationDate>
+	<author>JoomlaShine.com</author>
+	<authorEmail>admin@joomlashine.com</authorEmail>
+	<authorUrl>www.joomlashine.com</authorUrl>
+	<copyright>Copyright (C) 2013 JoomlaShine.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>PLG_CONTENT_PB3LOADMODULE_XML_DESCRIPTION</description>
+	<scriptfile>subinstall.php</scriptfile>
+	<files>
+		<filename plugin="pb3loadmodule">pb3loadmodule.php</filename>
+		<filename>index.html</filename>
+		<filename>pb3loadmodule.xml</filename>
+		<filename>subinstall.php</filename>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_pb3loadmodule.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_pb3loadmodule.sys.ini</language>
+
+		<language tag="de-DE">language/de-DE/de-DE.plg_content_pb3loadmodule.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_content_pb3loadmodule.sys.ini</language>
+
+		<language tag="it-IT">language/it-IT/it-IT.plg_content_pb3loadmodule.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.plg_content_pb3loadmodule.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="style"
+					type="list"
+					label="PLG_CONTENT_PB3LOADMODULE_FIELD_STYLE_LABEL"
+					description="PLG_CONTENT_PB3LOADMODULE_FIELD_STYLE_DESC"
+					default=""
+				>
+					<option value="">PLG_CONTENT_PB3LOADMODULE_FIELD_VALUE_INHERIT</option>
+					<option value="table">PLG_CONTENT_PB3LOADMODULE_FIELD_VALUE_TABLE</option>
+					<option value="horz">PLG_CONTENT_PB3LOADMODULE_FIELD_VALUE_HORIZONTAL</option>
+					<option value="xhtml">PLG_CONTENT_PB3LOADMODULE_FIELD_VALUE_DIVS</option>
+					<option value="rounded">PLG_CONTENT_PB3LOADMODULE_FIELD_VALUE_MULTIPLEDIVS</option>
+					<option value="none">PLG_CONTENT_PB3LOADMODULE_FIELD_VALUE_RAW</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

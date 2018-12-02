@@ -1,0 +1,75 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none">
+					<path
+						fill="#000"
+						filter="url(#a)"
+						d="M0 0h180v110H0z"
+						transform="translate(4 2)"
+					/>
+					<path fill="#FFF" d="M4 2h180v110H4z" />
+					<path fill="#919DA9" d="M19 77h10v10H19z" />
+					<path fill="#D2D8DE" d="M34 84.5h135v1H34z" />
+					<path
+						fill="#919DA9"
+						d="M34 84.5h115v1H34zM34 78.5h15.557v4H34z"
+					/>
+					<g>
+						<path fill="#919DA9" d="M19 64.5h10v10H19z" />
+						<path fill="#D2D8DE" d="M34 72h135v1H34z" />
+						<path
+							fill="#919DA9"
+							d="M34 72h95v1H34zM34 66h15.557v4H34z"
+						/>
+					</g>
+					<g>
+						<path fill="#919DA9" d="M19 52h10v10H19z" />
+						<path fill="#D2D8DE" d="M34 59.5h135v1H34z" />
+						<path
+							fill="#919DA9"
+							d="M34 59.5h75v1H34zM34 53.5h15.557v4H34z"
+						/>
+					</g>
+					<g>
+						<path fill="#919DA9" d="M19 39.5h10v10H19z" />
+						<path fill="#D2D8DE" d="M34 46.75h135v1H34z" />
+						<path
+							fill="#919DA9"
+							d="M34 46.75h55v1H34zM34 40.75h15.557v4H34z"
+						/>
+					</g>
+					<g>
+						<path fill="#919DA9" d="M19 27h10v10H19z" />
+						<path fill="#D2D8DE" d="M34 34.5h135v1H34z" />
+						<path
+							fill="#919DA9"
+							d="M34 34.5h35v1H34zM34 28.5h15.557v4H34z"
+						/>
+					</g>
+				</g>
+			</svg>

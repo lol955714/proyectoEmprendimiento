@@ -1,0 +1,137 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path
+							fill="#000"
+							filter="url(#a)"
+							d="M0 0h180v110H0z"
+						/>
+						<path fill="#FFF" d="M0 0h180v110H0z" />
+					</g>
+					<text
+						font-family="Helvetica"
+						font-size="7"
+						letter-spacing="-.12"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="115" y="35">
+							Secs
+								</tspan>
+					</text>
+					<text
+						font-family="Helvetica"
+						font-size="7"
+						letter-spacing="-.12"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="81" y="35">
+							Mins
+								</tspan>
+					</text>
+					<text
+						font-family="Helvetica"
+						font-size="20"
+						letter-spacing="-.343"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="6" y="24">
+							12
+								</tspan>
+					</text>
+					<text
+						font-family="Helvetica"
+						font-size="20"
+						letter-spacing="-.343"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="41.333" y="24">
+							09
+								</tspan>
+					</text>
+					<text
+						font-family="Helvetica"
+						font-size="20"
+						letter-spacing="-.343"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="76.667" y="24">
+							45
+								</tspan>
+					</text>
+					<text
+						font-family="Helvetica"
+						font-size="20"
+						letter-spacing="-.343"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="112" y="24">
+							37
+								</tspan>
+					</text>
+					<path
+						d="M59.25 43.5v27.02M94.25 43.5v27.02M130.25 43.5v27.02"
+						stroke="#979797"
+						stroke-width=".5"
+						stroke-linecap="square"
+					/>
+					<path
+						stroke="#979797"
+						stroke-width=".5"
+						d="M24.25 36.25h139.5v41.5H24.25z"
+					/>
+					<text
+						font-family="Helvetica"
+						font-size="7"
+						letter-spacing="-.12"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="43" y="35">
+							Hours
+								</tspan>
+					</text>
+					<text
+						font-family="Helvetica"
+						font-size="7"
+						letter-spacing="-.12"
+						fill="#919DA9"
+						transform="translate(24 36)"
+					>
+						<tspan x="10" y="35">
+							Days
+								</tspan>
+					</text>
+				</g>
+			</svg>

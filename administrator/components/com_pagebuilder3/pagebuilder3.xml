@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>PageBuilder3</name>
+    <identified_name>ext_pagebuilder3</identified_name>
+    <version>1.4.6</version>
+    <creationDate>11/26/2018</creationDate>
+    <author>JoomlaShine.com</author>
+    <authorEmail>support@joomlashine.com</authorEmail>
+    <authorUrl>http://www.joomlashine.com</authorUrl>
+    <copyright>Copyright (C) 2013 JoomlaShine.com. All Rights Reserved.</copyright>
+    <license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>JSN PageBuilder3 Component</description>
+	<group>jsnextfw</group>
+    <updateservers>
+        <server type="collection" name="pagebuilder3">http://www.joomlashine.com/versioning/extensions/com_pagebuilder3.xml</server>
+    </updateservers>
+    <scriptfile>subinstall.php</scriptfile>
+    <subinstall>
+		<extension type="plugin" folder="system" name="jsnextfw" identified_name="ext_framework2" publish="1" lock="1">
+			JSN Extension Framework gen. 2 System Plugin
+		</extension>
+        <extension type="plugin" folder="system" name="pagebuilder3" dir="plugins/system/pagebuilder3" client="site" publish="1" lock="0">
+            JSN PageBuilder3 System Plugin
+        </extension>
+        <extension type="plugin" folder="content" name="pb3loadmodule" dir="plugins/content/pb3loadmodule" client="site" publish="1" lock="0">
+            JSN PageBuilder3 Load Module Plugin
+        </extension>
+        <extension type="plugin" folder="content" name="pagebuilder3" dir="plugins/content/pagebuilder3" client="site" publish="1" lock="0">
+            JSN PageBuilder3 Content Plugin
+        </extension>
+        <extension type="plugin" folder="editors" name="pagebuilder3" dir="plugins/editors/pagebuilder3" client="site" publish="1" lock="0">
+            JSN PageBuilder3 Editor Plugin
+        </extension>
+    </subinstall>
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <update> <!-- Runs on update; New since J2.5 -->
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    <administration>
+        <menu link="option=com_pagebuilder3" option="com_pagebuilder3"
+              img="components/com_pagebuilder3/assets/images/icon-pagebuilder3.png" alt="JSN_SAPMLE_MENU_TEXT">
+            JSN_PAGEBUILDER3_MENU_TEXT
+        </menu>
+        <submenu>
+            <menu link="option=com_pagebuilder3&amp;view=manager" view="manager"
+                  img="components/com_pagebuilder3/assets/images/icons-16/icon-manager.png"
+                  alt="JSN_PAGEBUILDER3_MENU_PAGE_MANAGER">JSN_PAGEBUILDER3_MENU_PAGE_MANAGER
+            </menu>
+            <menu link="option=com_pagebuilder3&amp;view=configuration" view="configuration"
+                  img="components/com_pagebuilder3/assets/images/icons-16/icon-configuration.png"
+                  alt="JSN_PAGEBUILDER3_MENU_CONFIGURARTION_TEXT">JSN_PAGEBUILDER3_MENU_CONFIGURARTION_TEXT
+            </menu>
+            <menu link="option=com_pagebuilder3&amp;view=about" view="about"
+                  img="components/com_pagebuilder3/assets/images/icons-16/icon-about.png"
+                  alt="JSN_PAGEBUILDER3_MENU_ABOUT_TEXT">JSN_PAGEBUILDER3_MENU_ABOUT_TEXT
+            </menu>
+            <menu link="option=com_pagebuilder3&amp;view=help" view="help"
+                  img="components/com_pagebuilder3/assets/images/icons-16/icon-help.png"
+                  alt="JSN_PAGEBUILDER3_MENU_HELP_TEXT">JSN_PAGEBUILDER3_MENU_HELP_TEXT
+            </menu>
+        </submenu>
+        <files folder="admin">
+            <folder>assets</folder>
+            <folder>controllers</folder>
+            <folder>sql</folder>
+            <folder>helpers</folder>
+            <folder>language</folder>
+            <folder>libraries</folder>
+            <folder>models</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <filename>access.xml</filename>
+            <filename>bootstrap.php</filename>
+            <filename>config.json</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>dependency.php</filename>
+            <filename>jsninstaller.php</filename>
+            <filename>pagebuilder3.php</filename>
+            <filename>pagebuilder3.defines.php</filename>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/admin/en-GB/en-GB.com_pagebuilder3.ini</language>
+            <language tag="en-GB">language/admin/en-GB/en-GB.com_pagebuilder3.sys.ini</language>
+
+            <language tag="it-IT">language/admin/it-IT/it-IT.com_pagebuilder3.ini</language>
+            <language tag="it-IT">language/admin/it-IT/it-IT.com_pagebuilder3.sys.ini</language>
+
+            <language tag="de-DE">language/admin/de-DE/de-DE.com_pagebuilder3.ini</language>
+            <language tag="de-DE">language/admin/de-DE/de-DE.com_pagebuilder3.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

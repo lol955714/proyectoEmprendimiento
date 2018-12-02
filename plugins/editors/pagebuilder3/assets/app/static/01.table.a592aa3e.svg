@@ -1,0 +1,64 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<path id="b" d="M0 0h180v110H0z" />
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path
+							id="b"
+							d="M0 0h180v110H0z"
+							fill="#000"
+							filter="url(#a)"
+						/>
+						<path id="b" d="M0 0h180v110H0z" fill="#FFF" />
+					</g>
+					<path
+						d="M45 28h98c1.105 0 2 .895 2 2v18H43V30c0-1.105.895-2 2-2z"
+						fill="#919DA9"
+					/>
+					<text
+						font-family="SanFranciscoDisplay-Bold, San Francisco Display"
+						font-size="12"
+						fontWeight="bold"
+						letter-spacing="1"
+						fill="#FFF"
+						transform="translate(43 28)"
+					>
+						<tspan x="34.478" y="14">
+							Table
+								</tspan>
+					</text>
+					<path
+						fill="#919DA9"
+						d="M76 48h2v39h-2zM143 48h2v39h-2zM43 48h2v39h-2zM110 48h2v39h-2z"
+					/>
+					<path
+						fill="#919DA9"
+						d="M43 85h102v2H43zM43 66h102v2H43z"
+					/>
+				</g>
+			</svg>

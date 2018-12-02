@@ -1,0 +1,59 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path
+							d="M0 0h180v110H0z"
+							fill="#000"
+							filter="url(#a)"
+						/>
+						<path d="M0 0h180v110H0z" fill="#FFF" />
+					</g>
+					<path fill="#D2D8DE" d="M66 29h56v56H66z" />
+					<path
+						stroke="#717F8E"
+						stroke-width="2"
+						d="M62 25h64v64H62z"
+					/>
+					<path
+						d="M85.034 48.09c.898.792 2.075 1.274 3.366 1.274 1.29 0 2.468-.482 3.366-1.273 1.057-.932 1.725-2.296 1.725-3.817 0-.44-.055-.866-.16-1.273-.565-2.196-2.558-3.818-4.93-3.818S84.035 40.804 83.47 43c-.105.407-.16.833-.16 1.273 0 1.52.667 2.885 1.724 3.818z"
+						fill="#FFF"
+						fill-rule="nonzero"
+					/>
+					<path
+						d="M114.462 62.26l-2.826-2.728-.942-.91-1.104-1.065c-.736-.71-1.7-1.066-2.665-1.066-.965 0-1.93.356-2.665 1.067l-1.104 1.065-.942.91-2.827 2.73-.942.908-2.826 2.73-.944.908-2.826 2.73-.943.91-.47.454L105.04 85H122V69.537l-3.77-3.638-2.825-2.73-.943-.91z"
+						fill="#717F8E"
+						fill-rule="nonzero"
+					/>
+					<path
+						d="M91.697 71.386l-.485-.44-1.94-1.756-1.94-1.757-1.938-1.757-1.136-1.03c-.348-.314-.746-.556-1.17-.726-.5-.2-1.036-.302-1.573-.302-.536 0-1.072.1-1.57.302-.426.17-.824.412-1.172.727l-1.137 1.03-1.94 1.756-1.94 1.757-1.938 1.756-1.94 1.757L66 76.217V85H106.727l-15.03-13.614z"
+						fill="#919DA9"
+						fill-rule="nonzero"
+					/>
+				</g>
+			</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content"  method="upgrade">
+    <name>Content - JSN PageBuilder 3</name>		
+    <version>1.4.6</version>		
+    <creationDate>11/26/2018</creationDate>
+    <author>JoomlaShine.com</author>
+    <authorEmail>admin@joomlashine.com</authorEmail>
+    <authorUrl>www.joomlashine.com</authorUrl>
+	<copyright>Copyright (C) 2013 JoomlaShine.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>JSN PageBuilder 3 Plugin Content</description>
+	<scriptfile>subinstall.php</scriptfile>
+    <files>
+		<filename plugin="pagebuilder3">pagebuilder3.php</filename>
+		<filename>subinstall.php</filename>
+		<filename>pagebuilder3.xml</filename>
+		<filename>index.html</filename>
+    </files>
+    <config />
+</extension>

@@ -1,0 +1,95 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path
+							d="M0 0h180v110H0z"
+							fill="#000"
+							filter="url(#a)"
+						/>
+						<path fill="#FFF" d="M0 0h180v110H0z" />
+					</g>
+					<g transform="translate(24 34)">
+						<path fill="#919DA9" d="M0 7h40v40H0z" />
+						<path
+							fill="#D2D8DE"
+							d="M5 31h30v2H5zM9 28h22v2H9zM9 34h22v2H9z"
+						/>
+						<path fill="#FFF" d="M12 21h17v3H12z" />
+						<circle
+							stroke="#919DA9"
+							fill="#FFF"
+							cx="20"
+							cy="8"
+							r="8"
+						/>
+						<path
+							fill="#919DA9"
+							d="M20.256 10.48L17.366 12l.552-3.218-2.338-2.28 3.23-.47 1.446-2.927L21.7 6.033l3.232.47-2.338 2.28.552 3.217"
+						/>
+					</g>
+					<g transform="translate(74 34)">
+						<path fill="#919DA9" d="M0 7h40v40H0z" />
+						<path
+							fill="#D2D8DE"
+							d="M5 31h30v2H5zM9 28h22v2H9zM9 34h22v2H9z"
+						/>
+						<path fill="#FFF" d="M12 21h17v3H12z" />
+						<circle
+							stroke="#919DA9"
+							fill="#FFF"
+							cx="20"
+							cy="8"
+							r="8"
+						/>
+						<path
+							fill="#919DA9"
+							d="M20.256 10.48L17.366 12l.552-3.218-2.338-2.28 3.23-.47 1.446-2.927L21.7 6.033l3.232.47-2.338 2.28.552 3.217"
+						/>
+					</g>
+					<g transform="translate(124 34)">
+						<path fill="#919DA9" d="M0 7h40v40H0z" />
+						<path
+							fill="#D2D8DE"
+							d="M5 31h30v2H5zM9 28h22v2H9zM9 34h22v2H9z"
+						/>
+						<path fill="#FFF" d="M12 21h17v3H12z" />
+						<circle
+							stroke="#919DA9"
+							fill="#FFF"
+							cx="20"
+							cy="8"
+							r="8"
+						/>
+						<path
+							fill="#919DA9"
+							d="M20.256 10.48L17.366 12l.552-3.218-2.338-2.28 3.23-.47 1.446-2.927L21.7 6.033l3.232.47-2.338 2.28.552 3.217"
+						/>
+					</g>
+				</g>
+			</svg>

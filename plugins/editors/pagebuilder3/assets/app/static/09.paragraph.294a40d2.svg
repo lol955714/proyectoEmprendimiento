@@ -1,0 +1,53 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path
+							d="M0 0h180v110H0z"
+							fill="#000"
+							filter="url(#a)"
+						/>
+						<path d="M0 0h180v110H0z" fill="#FFF" />
+					</g>
+					<g transform="translate(39 38)">
+						<g fill="#D2D8DE">
+							<path d="M28 0h82v3H28zM28 9h82v3H28zM28 18h82v3H28zM0 27h110v3H0zM0 36h110v3H0z" />
+						</g>
+						<rect
+							fill="#717F8E"
+							width="21"
+							height="21"
+							rx="10.5"
+						/>
+						<path
+							d="M9 12h3l-1.5-4L9 12zm.145-7h2.742L16 16h-2.632l-.748-2.26H8.34L7.538 16H5L9.145 5z"
+							fill="#FFF"
+						/>
+					</g>
+				</g>
+			</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>maps-and-flags (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-venues" transform="translate(-1113.000000, -451.000000)" fill-rule="nonzero">
+            <g id="Group-12" transform="translate(830.000000, 172.000000)">
+                <g id="Bitmap" transform="translate(20.000000, 158.000000)">
+                    <g id="maps-and-flags-(1)" transform="translate(263.000000, 121.000000)">
+                        <path d="M23.3114062,11.65125 C23.3114062,20.9808398 12.7791211,29.6213086 12.7791211,29.6213086 C12.1637109,30.1262109 11.156543,30.1262109 10.5411328,29.6213086 C10.5411328,29.6213086 0.00884765625,20.9808398 0.00884765625,11.65125 C0.00896484375,5.21642578 5.22539063,0 11.6601563,0 C18.0949219,0 23.3114062,5.21642578 23.3114062,11.65125 Z" id="Shape" fill="#EE3840"></path>
+                        <path d="M11.6601562,17.5130859 C8.42789062,17.5130859 5.79837891,14.883457 5.79837891,11.6513086 C5.79837891,8.41916016 8.42800781,5.78941406 11.6601562,5.78941406 C14.8923047,5.78941406 17.5219336,8.41904297 17.5219336,11.6511914 C17.5219336,14.8833398 14.8924219,17.5130859 11.6601562,17.5130859 Z" id="Shape" fill="#FFE1D6"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

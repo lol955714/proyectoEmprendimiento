@@ -1,0 +1,29 @@
+{
+	"groups": [
+		{
+			"title": "JSN_PAGEBUILDER3_CONFIG_GENERAL",
+			"controls": {
+				"media_root_folder": {
+					"type": "text",
+					"label": "JSN_PAGEBUILDER3_MEDIA_ROOT_FOLDER",
+					"hint": "JSN_PAGEBUILDER3_MEDIA_ROOT_FOLDER_DESC",
+					"default": "/images",
+					"filter": "path",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"revision_limit": {
+					"type": "number",
+					"label": "JSN_PAGEBUILDER3_REVISION_LIMIT",
+					"hint": "JSN_PAGEBUILDER3_REVISION_LIMIT_DESC",
+					"default": 30,
+					"filter": "path",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		}
+	]
+}

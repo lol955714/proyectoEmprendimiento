@@ -1,0 +1,82 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none">
+					<path
+						fill="#000"
+						filter="url(#a)"
+						d="M0 0h180v110H0z"
+						transform="translate(4 2)"
+					/>
+					<path fill="#FFF" d="M4 2h180v110H4z" />
+					<g transform="translate(124 17)">
+						<path fill="#919DA9" d="M0 0h45v80H0z" />
+						<rect
+							fill="#FFF"
+							x="13"
+							y="28"
+							width="20"
+							height="7"
+							rx="3.5"
+						/>
+						<path
+							fill="#FFF"
+							d="M8 40h30v3H8zM8 46h30v3H8zM8 8h30v15H8z"
+						/>
+					</g>
+					<g transform="translate(72 17)">
+						<path fill="#919DA9" d="M0 0h45v80H0z" />
+						<rect
+							fill="#FFF"
+							x="13"
+							y="28"
+							width="20"
+							height="7"
+							rx="3.5"
+						/>
+						<path
+							fill="#FFF"
+							d="M8 40h30v3H8zM8 46h30v3H8zM8 58h30v3H8zM8 52h30v3H8zM8 8h30v15H8z"
+						/>
+					</g>
+					<g transform="translate(19 17)">
+						<path fill="#919DA9" d="M0 0h45v80H0z" />
+						<rect
+							fill="#FFF"
+							x="13"
+							y="28"
+							width="20"
+							height="7"
+							rx="3.5"
+						/>
+						<path
+							fill="#FFF"
+							d="M8 40h30v3H8zM8 45.8h30v3H8zM8 57.4h30v3H8zM8 51.6h30v3H8zM8 63.2h30v3H8zM8 69h30v3H8zM8 8h30v15H8z"
+						/>
+					</g>
+				</g>
+			</svg>

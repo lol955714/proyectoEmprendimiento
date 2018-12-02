@@ -1,0 +1,56 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<path id="b" d="M0 0h180v110H0z" />
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path
+							d="M0 0h180v110H0z"
+							fill="#000"
+							filter="url(#a)"
+						/>
+						<path d="M0 0h180v110H0z" fill="#FFF" />
+					</g>
+					<path
+						stroke="#717F8E"
+						stroke-width="2"
+						d="M55 36h13v43H55zM120 36h13v43h-13z"
+					/>
+					<g transform="translate(56 37)">
+						<path fill="#D2D8DE" d="M12 0h52v41H12z" />
+						<path
+							stroke="#717F8E"
+							stroke-width="2"
+							d="M11-1h54v43H11z"
+						/>
+					</g>
+					<path
+						d="M76 61.82v-7h1.51v2.67h2.85v-2.67h1.516v7H80.36v-3.125h-2.85v3.125H76zm13.477-7v1.24h-2.183v5.76H85.76v-5.76h-2.193v-1.24h5.91zm6.572 0h2.192v7h-1.42v-4.735c0-.136 0-.326.004-.572.004-.245.005-.434.005-.567l-1.38 5.874h-1.48l-1.37-5.874c0 .133 0 .322.004.567.003.246.005.436.005.572v4.735h-1.422v-7h2.218l1.327 5.504 1.316-5.503zm4.453 0h1.524v5.74h3.614v1.26h-5.137v-7zm7.938 5.157c.057.295.164.522.323.682.158.158.39.238.693.238.35 0 .616-.118.8-.353.182-.236.274-.533.274-.89 0-.352-.086-.65-.258-.89-.17-.243-.438-.364-.8-.364-.173 0-.322.02-.447.062-.22.076-.388.217-.5.423l-1.267-.057.505-3.803h3.955v1.15h-2.936l-.257 1.504c.218-.137.388-.227.51-.272.205-.072.454-.11.747-.11.594 0 1.112.193 1.555.576.442.383.663.94.663 1.67 0 .637-.213 1.206-.64 1.706-.424.5-1.06.75-1.91.75-.682 0-1.243-.176-1.682-.527-.44-.35-.683-.85-.733-1.496h1.406zM56 43h11v2H56zM121 43h11v2h-11zM56 61h11v2H56zM121 61h11v2h-11zM56 52h11v2H56zM121 52h11v2h-11zM56 70h11v2H56zM121 70h11v2h-11z"
+						fill="#717F8E"
+					/>
+				</g>
+			</svg>

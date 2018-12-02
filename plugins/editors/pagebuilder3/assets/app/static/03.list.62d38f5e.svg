@@ -1,0 +1,69 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none">
+					<path
+						fill="#000"
+						filter="url(#a)"
+						d="M0 0h180v110H0z"
+						transform="translate(4 2)"
+					/>
+					<path fill="#FFF" d="M4 2h180v110H4z" />
+					<g transform="translate(19 32)">
+						<path fill="#919DA9" d="M15 3h135v5H15z" />
+						<circle fill="#919DA9" cx="5" cy="5" r="5" />
+						<path
+							fill="#FFF"
+							d="M5 7L2.65 8.236l.448-2.618-1.902-1.854 2.628-.382L5 1l1.176 2.382 2.628.382-1.902 1.854.45 2.618"
+						/>
+					</g>
+					<g transform="translate(19 45.333)">
+						<path fill="#919DA9" d="M15 2.333h135v5H15z" />
+						<circle fill="#919DA9" cx="5" cy="5" r="5" />
+						<path
+							fill="#FFF"
+							d="M5 7L2.65 8.236l.448-2.618-1.902-1.854 2.628-.382L5 1l1.176 2.382 2.628.382-1.902 1.854.45 2.618"
+						/>
+					</g>
+					<g transform="translate(19 58.667)">
+						<path fill="#919DA9" d="M15 2.667h135v5H15z" />
+						<circle fill="#919DA9" cx="5" cy="5" r="5" />
+						<path
+							fill="#FFF"
+							d="M5 7L2.65 8.236l.448-2.618-1.902-1.854 2.628-.382L5 1l1.176 2.382 2.628.382-1.902 1.854.45 2.618"
+						/>
+					</g>
+					<g transform="translate(19 72)">
+						<path fill="#919DA9" d="M15 3h135v5H15z" />
+						<circle fill="#919DA9" cx="5" cy="5" r="5" />
+						<path
+							fill="#FFF"
+							d="M5 7L2.65 8.236l.448-2.618-1.902-1.854 2.628-.382L5 1l1.176 2.382 2.628.382-1.902 1.854.45 2.618"
+						/>
+					</g>
+				</g>
+			</svg>

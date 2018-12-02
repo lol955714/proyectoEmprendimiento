@@ -1,0 +1,104 @@
+
+			<svg width="188" height="118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<path id="b" d="M0 0h180v110H0z"/>
+					<filter x="-4%" y="-5%" width="108%" height="113%" filter-units="objectBoundingBox" id="a">
+						<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+						<feGaussianBlur std-deviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+						<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+									   in="shadowBlurOuter1"/>
+					</filter>
+					<path id="c" d="M0 0h15v15H0z"/>
+					<path id="e" d="M0 0h15v15H0z"/>
+					<path id="g" d="M0 0h15v15H0z"/>
+					<path id="i" d="M0 0h15v15H0z"/>
+					<path id="k" d="M0 0h15v15H0z"/>
+					<path id="m" d="M0 0h15v15H0z"/>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path fill="#000" filter="url(#a)" d="M0 0h180v110H0z"/>
+						<path fill="#FFF" d="M0 0h180v110H0z"/>
+					</g>
+					<path fill="#D2D8DE" d="M41 43h23v3H41z"/>
+					<path fill="#919DA9" d="M41 38h13v3H41zM41 48h18v3H41z"/>
+					<g transform="translate(24 37)">
+						<mask id="d" fill="#fff">
+							<path d="M0 0h15v15H0z"/>
+						</mask>
+						<path fill="#D2D8DE" d="M0 0h15v15H0z"/>
+						<path d="M4 5a1 1 0 0 0 1 0 1 1 0 0 0 0-3 2 2 0 0 0-1 3z" fill="#FFF" fill-rule="nonzero"
+							  mask="url(#d)"/>
+						<path d="M6 11l-1-1H4V9H3a2 2 0 0 0-1 0l-1 1-1 1h-1l-1 1-1 1v2h15l-6-4z" fill="#919DA9"
+							  fill-rule="nonzero" mask="url(#d)"/>
+					</g>
+					<path fill="#D2D8DE" d="M91 43h23v3H91z"/>
+					<path fill="#919DA9" d="M91 38h13v3H91zM91 48h18v3H91z"/>
+					<g transform="translate(74 37)">
+						<mask id="f" fill="#fff">
+							<path d="M0 0h15v15H0z"/>
+						</mask>
+						<path fill="#D2D8DE" d="M0 0h15v15H0z"/>
+						<path d="M4 5a1 1 0 0 0 1 0 1 1 0 0 0 0-3 2 2 0 0 0-1 3z" fill="#FFF" fill-rule="nonzero"
+							  mask="url(#f)"/>
+						<path d="M6 11l-1-1H4V9H3a2 2 0 0 0-1 0l-1 1-1 1h-1l-1 1-1 1v2h15l-6-4z" fill="#919DA9"
+							  fill-rule="nonzero" mask="url(#f)"/>
+					</g>
+					<g>
+						<path fill="#D2D8DE" d="M141 43h23v3h-23z"/>
+						<path fill="#919DA9" d="M141 38h13v3h-13zM141 48h18v3h-18z"/>
+						<g transform="translate(124 37)">
+							<mask id="h" fill="#fff">
+								<path d="M0 0h15v15H0z"/>
+							</mask>
+							<path fill="#D2D8DE" d="M0 0h15v15H0z"/>
+							<path d="M4 5a1 1 0 0 0 1 0 1 1 0 0 0 0-3 2 2 0 0 0-1 3z" fill="#FFF" fill-rule="nonzero"
+								  mask="url(#h)"/>
+							<path d="M6 11l-1-1H4V9H3a2 2 0 0 0-1 0l-1 1-1 1h-1l-1 1-1 1v2h15l-6-4z" fill="#919DA9"
+								  fill-rule="nonzero" mask="url(#h)"/>
+						</g>
+					</g>
+					<g>
+						<path fill="#D2D8DE" d="M41 68h23v3H41z"/>
+						<path fill="#919DA9" d="M41 63h13v3H41zM41 73h18v3H41z"/>
+						<g transform="translate(24 62)">
+							<mask id="j" fill="#fff">
+								<path d="M0 0h15v15H0z"/>
+							</mask>
+							<path fill="#D2D8DE" d="M0 0h15v15H0z"/>
+							<path d="M4 5a1 1 0 0 0 1 0 1 1 0 0 0 0-3 2 2 0 0 0-1 3z" fill="#FFF" fill-rule="nonzero"
+								  mask="url(#j)"/>
+							<path d="M6 11l-1-1H4V9H3a2 2 0 0 0-1 0l-1 1-1 1h-1l-1 1-1 1v2h15l-6-4z" fill="#919DA9"
+								  fill-rule="nonzero" mask="url(#j)"/>
+						</g>
+					</g>
+					<g>
+						<path fill="#D2D8DE" d="M91 68h23v3H91z"/>
+						<path fill="#919DA9" d="M91 63h13v3H91zM91 73h18v3H91z"/>
+						<g transform="translate(74 62)">
+							<mask id="l" fill="#fff">
+								<path d="M0 0h15v15H0z"/>
+							</mask>
+							<path fill="#D2D8DE" d="M0 0h15v15H0z"/>
+							<path d="M4 5a1 1 0 0 0 1 0 1 1 0 0 0 0-3 2 2 0 0 0-1 3z" fill="#FFF" fill-rule="nonzero"
+								  mask="url(#l)"/>
+							<path d="M6 11l-1-1H4V9H3a2 2 0 0 0-1 0l-1 1-1 1h-1l-1 1-1 1v2h15l-6-4z" fill="#919DA9"
+								  fill-rule="nonzero" mask="url(#l)"/>
+						</g>
+					</g>
+					<g>
+						<path fill="#D2D8DE" d="M141 68h23v3h-23z"/>
+						<path fill="#919DA9" d="M141 63h13v3h-13zM141 73h18v3h-18z"/>
+						<g transform="translate(124 62)">
+							<mask id="n" fill="#fff">
+								<path d="M0 0h15v15H0z"/>
+							</mask>
+							<path fill="#D2D8DE" d="M0 0h15v15H0z"/>
+							<path d="M4 5a1 1 0 0 0 1 0 1 1 0 0 0 0-3 2 2 0 0 0-1 3z" fill="#FFF" fill-rule="nonzero"
+								  mask="url(#n)"/>
+							<path d="M6 11l-1-1H4V9H3a2 2 0 0 0-1 0l-1 1-1 1h-1l-1 1-1 1v2h15l-6-4z" fill="#919DA9"
+								  fill-rule="nonzero" mask="url(#n)"/>
+						</g>
+					</g>
+				</g>
+			</svg>

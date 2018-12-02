@@ -1,0 +1,49 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none">
+					<path
+						fill="#000"
+						filter="url(#a)"
+						d="M0 0h180v110H0z"
+						transform="translate(4 2)"
+					/>
+					<path fill="#FFF" d="M4 2h180v110H4z" />
+					<path
+						fill="#919DA9"
+						d="M19 55h137v5H19zM19 71h137v5H19zM19 87h137v5H19zM19 38h137v5H19zM19 22h137v5H19z"
+					/>
+					<path
+						d="M169 48.875H19M169 32.625H19M169 65.125H19M169 81.375H19"
+						stroke="#919DA9"
+					/>
+					<path
+						fill="#919DA9"
+						d="M167.016 38l-2.393 2.413L162.337 38 161 39.305l3.623 3.69 3.616-3.646M167.016 55l-2.393 2.413L162.337 55 161 56.305l3.623 3.69 3.616-3.646M167.016 71l-2.393 2.413L162.337 71 161 72.305l3.623 3.69 3.616-3.646M167.016 87l-2.393 2.413L162.337 87 161 88.305l3.623 3.69 3.616-3.646M167.016 22l-2.393 2.413L162.337 22 161 23.305l3.623 3.69 3.616-3.646"
+					/>
+				</g>
+			</svg>

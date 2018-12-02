@@ -1,0 +1,55 @@
+
+			<svg width="188" height="118" view-box="0 0 188 118" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter
+						x="-3.9%"
+						y="-4.5%"
+						width="107.8%"
+						height="112.7%"
+						filter-units="objectBoundingBox"
+						id="a"
+					>
+						<feOffset
+							dy="2"
+							in="SourceAlpha"
+							result="shadowOffsetOuter1"
+						/>
+						<feGaussianBlur
+							std-deviation="2"
+							in="shadowOffsetOuter1"
+							result="shadowBlurOuter1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.135699728 0"
+							in="shadowBlurOuter1"
+						/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<g transform="translate(4 2)">
+						<path
+							id="b"
+							d="M0 0h180v110H0z"
+							fill="#000"
+							filter="url(#a)"
+						/>
+						<path id="b" d="M0 0h180v110H0z" fill="#FFF" />
+					</g>
+					<g fill="#919DA9">
+						<text
+							font-family="SanFranciscoDisplay-Bold, San Francisco Display"
+							font-size="12"
+							font-weight="bold"
+							transform="translate(47 37)"
+						>
+							<tspan x="47" y="20">
+								CUSTOM
+									</tspan>
+							<tspan x="47" y="32">
+								HTML
+									</tspan>
+						</text>
+						<path d="M47.625 37c-.376 0-.656.307-.622.683l3.165 35.633c.033.374.357.764.72.865l13.43 3.744c.363.1.955.1 1.317 0l13.474-3.75c.36-.1.684-.49.717-.864l3.17-35.627c.034-.376-.246-.683-.62-.683H47.624zm29.373 8.615l-.118 1.307-.085.947-.11 1.205c-.024.284-.048.516-.053.516H59.684c-.383 0-.67.312-.635.692l.298 3.322c.034.38.375.69.758.69H75.6c.34 0 .594.277.562.617l-.117 1.307-.96 10.71c-.035.38-.078.864-.096 1.077-.02.214-.338.472-.708.573l-8.097 2.235-.682.188c-.006 0-.313-.08-.68-.183l-8.108-2.24c-.37-.1-.7-.495-.733-.875l-.522-5.83c-.034-.38.252-.69.635-.69h3.236c.384 0 .725.31.76.69l.204 2.282c.034.38.365.772.735.87l3.79 1.02c.37.1.674.18.676.18 0 0 .305-.08.675-.18l3.8-1.022c.37-.1.7-.49.734-.87l.412-4.574c.034-.38-.25-.69-.634-.69H55.888c-.383 0-.724-.31-.758-.69L54.12 46.92 54 45.615c-.03-.338.258-.615.642-.615h21.712c.383 0 .672.277.642.615z" />
+					</g>
+				</g>
+			</svg>

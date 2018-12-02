@@ -1,0 +1,45 @@
+.jsn-pb3-loading{display:inline-block;margin-left:6px;width:16px;height:16px;background:url(../../../administrator/components/com_pagebuilder3/assets/images/icons-16/icon-16-loading-circle.gif) 50% 50% no-repeat;vertical-align:middle}#toolbar #toolbar-help{float:none!important}#toolbar .jsn-drop-menu .navbar .nav li{float:none;margin:0;padding:0;height:auto}#toolbar .jsn-drop-menu .dropdown-menu:before{content:'';display:inline-block;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:7px solid #ccc;border-bottom-color:rgba(0,0,0,.2);position:absolute;top:-7px;left:8px}#toolbar .jsn-drop-menu .dropdown-menu{overflow:visible!important}#toolbar .jsn-drop-menu .nav>.dropdown.open:after{content:'';display:inline-block;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #fff;position:absolute;top:34px;left:10px;box-shadow:0;margin-top:-8px}#toolbar .jsn-drop-menu .navbar-inner{min-height:10px;padding:0;background-color:transparent;background-image:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;filter:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}#jsn-menu-item-jsn-pb3-editor-switcher{vertical-align:top}#jsn-pb3-editor-switcher{margin-top:0;margin-bottom:0!important}#jsn-pb3-editor-switcher+.dropdown-menu{top:auto!important;margin-top:6px}#jsn-pb3-editor-switcher .caret{margin:0 0 0 5px!important;vertical-align:middle!important}#jsn-pb3-editor-switcher+.dropdown-menu li:not(:last-child){border-bottom:1px solid #f3f3f3}.form-horizontal [id*=attrib-fields] .controls{margin-left:0;padding-right:25vw;-webkit-transition:.3s all;-o-transition:.3s all;transition:.3s all}.is-pb-panel-closed .form-horizontal [id*=attrib-fields] .controls{padding-right:0}.pb-modal-settings .CodeMirror{min-height:200px!important;height:250px}
+
+/* The container <div> - needed to position the dropdown content */
+.pb3-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.pb3-switch-editor {
+    text-transform: capitalize;
+}
+.pb3-dropbtn {
+    border-radius: 4px !important;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.pb3-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 13px;
+}
+
+/* Links inside the dropdown */
+.pb3-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.pb3-dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.pb3-show {
+    display: block;
+}
+
+#jsn-pb3-editor-switcher {
+    line-height: 24px !important;
+}

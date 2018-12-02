@@ -1,0 +1,67 @@
+<svg width="188px" height="118px" viewBox="0 0 188 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="180" height="110"></rect>
+        <filter x="-3.9%" y="-4.5%" width="107.8%" height="112.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.135699728 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="140" height="70"></rect>
+        <filter x="-2.3%" y="-6.1%" width="104.6%" height="115.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.200718976 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-10.0%" y="-19.2%" width="120.0%" height="153.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.180932971 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5" transform="translate(-506.000000, -1029.000000)">
+            <g id="Slider" transform="translate(510.000000, 874.000000)">
+                <g id="Silder-2" transform="translate(0.000000, 157.000000)">
+                    <g id="Rectangle-2-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="BG" transform="translate(20.000000, 20.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#D2D8DE" xlink:href="#path-3"></use>
+                        <path d="M145.868064,32.0832941 L136.256135,27.393282 L133.052284,25.8300058 L129.298375,23.9983362 C126.795894,22.777101 123.515823,22.1666667 120.236503,22.1666667 C116.956808,22.1666667 113.676737,22.777101 111.174632,23.9983362 L107.420723,25.8300058 L104.216496,27.393282 L94.6045673,32.0832941 L91.4007161,33.6465704 L81.788787,38.3365824 L78.5849358,39.8998587 L68.9730067,44.5898707 L65.76878,46.1533302 L64.1666667,46.9350599 L113.828425,71.1666667 L171.5,71.1666667 L171.5,44.5900539 L158.68422,38.3367656 L149.072291,33.6467536 L145.868064,32.0832941 Z" id="Shape" fill="#717F8E" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                        <path d="M66.7220964,47.3955301 L65.1108594,46.6286554 L58.6666667,43.5613366 L52.2220964,40.4940178 L45.7779036,37.4268787 L42.0026172,35.6300162 C40.8460156,35.0795271 39.5232682,34.6571799 38.1117839,34.3595599 C36.4525911,34.0096408 34.6714323,33.8333333 32.8891406,33.8333333 C31.106849,33.8333333 29.3253125,34.0098205 27.6664974,34.3595599 C26.255013,34.6570002 24.9322656,35.0793474 23.7756641,35.6300162 L20,37.4268787 L13.5554297,40.4941975 L7.11085937,43.5615163 L0.666666667,46.6286554 L-5.77790365,49.6959742 L-18.6666667,55.8304321 L-18.6666667,71.1666667 L60.9681641,71.1666667 L116.666667,71.1666667 L66.7220964,47.3955301 Z" id="Shape" fill="#919DA9" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                    </g>
+                    <g id="Nav" filter="url(#filter-5)" transform="translate(25.000000, 52.000000)">
+                        <circle id="Oval-3" fill="#FFFFFF" cx="61" cy="32" r="1"></circle>
+                        <circle id="Oval-3-Copy" fill="#FFFFFF" cx="65" cy="32" r="1"></circle>
+                        <circle id="Oval-3-Copy-2" fill="#FFFFFF" cx="69" cy="32" r="1"></circle>
+                        <g id="Arrow-left" stroke="#FFFFFF" stroke-linecap="square">
+                            <path d="M0.5,3.5 L3.04950976,0.950490243" id="Line"></path>
+                            <path d="M0.5,6.5 L3.04950976,3.95049024" id="Line-Copy" transform="translate(2.000000, 5.000000) scale(1, -1) translate(-2.000000, -5.000000) "></path>
+                        </g>
+                        <g id="Arrow-right" transform="translate(128.000000, 3.500000) scale(-1, 1) translate(-128.000000, -3.500000) translate(126.000000, 0.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                            <path d="M0.5,3.5 L3.04950976,0.950490243" id="Line"></path>
+                            <path d="M0.5,6.5 L3.04950976,3.95049024" id="Line-Copy" transform="translate(2.000000, 5.000000) scale(1, -1) translate(-2.000000, -5.000000) "></path>
+                        </g>
+                    </g>
+                    <g id="Content" filter="url(#filter-6)" transform="translate(55.000000, 40.000000)" fill="#FFFFFF">
+                        <rect id="Rectangle-Copy-10" x="25" y="19" width="20" height="7" rx="3.5"></rect>
+                        <rect id="Rectangle-5-Copy-4" x="15" y="7" width="40" height="5"></rect>
+                        <rect id="Rectangle-5-Copy-38" x="0" y="0" width="70" height="5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
